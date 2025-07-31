@@ -1,0 +1,21 @@
+<monitor>
+    <name>OpenFile</name>
+    <type>managed</type>
+    <enabled>true</enabled>
+    <enable-override os-type="linux">true</enable-override>
+    <description>OpenFile
+    </description>
+    <monitor-configuration>
+    </monitor-configuration>
+    <monitor-run-task>
+        <execution-style>periodic</execution-style>
+        <name>Run</name>
+        <type>executable</type>
+        <task-arguments>
+        </task-arguments>
+        <executable-task>
+            <type>file</type>
+            <file>script.sh</file>
+        </executable-task>
+    </monitor-run-task>
+</monitor>
